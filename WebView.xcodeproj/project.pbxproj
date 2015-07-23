@@ -15,6 +15,8 @@
 		18F4537D1B5A59790066A530 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18F4537C1B5A59790066A530 /* Images.xcassets */; };
 		18F453801B5A59790066A530 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18F4537E1B5A59790066A530 /* LaunchScreen.xib */; };
 		18F4538C1B5A597A0066A530 /* WebViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F4538B1B5A597A0066A530 /* WebViewTests.m */; };
+		18F453991B5B706E0066A530 /* testWebView.htm in Resources */ = {isa = PBXBuildFile; fileRef = 18F453981B5B706E0066A530 /* testWebView.htm */; };
+		18F4539E1B5B73420066A530 /* javascript in Resources */ = {isa = PBXBuildFile; fileRef = 18F4539D1B5B73420066A530 /* javascript */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +44,8 @@
 		18F453851B5A59790066A530 /* WebViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18F4538A1B5A597A0066A530 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18F4538B1B5A597A0066A530 /* WebViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebViewTests.m; sourceTree = "<group>"; };
+		18F453981B5B706E0066A530 /* testWebView.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = testWebView.htm; sourceTree = "<group>"; };
+		18F4539D1B5B73420066A530 /* javascript */ = {isa = PBXFileReference; lastKnownFileType = folder; path = javascript; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,8 @@
 		18F4536B1B5A59790066A530 /* WebView */ = {
 			isa = PBXGroup;
 			children = (
+				18F4539C1B5B72F90066A530 /* WebResource */,
+				18F453981B5B706E0066A530 /* testWebView.htm */,
 				18F453701B5A59790066A530 /* AppDelegate.h */,
 				18F453711B5A59790066A530 /* AppDelegate.m */,
 				18F453761B5A59790066A530 /* ViewController.h */,
@@ -120,6 +126,14 @@
 				18F4538A1B5A597A0066A530 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18F4539C1B5B72F90066A530 /* WebResource */ = {
+			isa = PBXGroup;
+			children = (
+				18F4539D1B5B73420066A530 /* javascript */,
+			);
+			path = WebResource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,8 +217,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				18F4537B1B5A59790066A530 /* Main.storyboard in Resources */,
+				18F4539E1B5B73420066A530 /* javascript in Resources */,
 				18F453801B5A59790066A530 /* LaunchScreen.xib in Resources */,
 				18F4537D1B5A59790066A530 /* Images.xcassets in Resources */,
+				18F453991B5B706E0066A530 /* testWebView.htm in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
